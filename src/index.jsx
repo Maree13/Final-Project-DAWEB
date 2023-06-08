@@ -12,7 +12,9 @@ const App = () => {
       <main>
         <p>
           Startovací šablona pro webovou aplikaci v Reactu. Vytvořeno pomocí
-          <a href="https://www.npmjs.com/package/create-czechitas-app">create-czechitas-app</a>
+          <a href="https://www.npmjs.com/package/create-czechitas-app">
+            create-czechitas-app
+          </a>
           .
         </p>
       </main>
@@ -23,6 +25,4 @@ const App = () => {
   );
 };
 
-createRoot(
-  document.querySelector('#app'),
-).render(<App />);
+createRoot(document.querySelector('#app')).render(<App />);

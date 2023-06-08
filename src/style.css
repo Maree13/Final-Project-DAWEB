@@ -4,26 +4,30 @@
   box-sizing: border-box;
 }
 
+/* COLORS */
+
+:root {
+  --primary-color: #FAF5F2;
+  --secondary-color: #E2FBF1;
+  --button-color: #DFF4F4;
+  --text-color: #000000;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
 }
 
-.container {
+
+
+/* .container {
   max-width: 26rem;
   margin-right: auto;
   margin-left: auto;
-}
+} */
 
-header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 4rem;
-}
 
-.logo {
-  width: 10rem;
-  height: 10rem;
-  background-image: url(./img/rocket.svg);
-  background-size: contain;
+
+
+body {
+  background-color: var(--primary-color);
 }
