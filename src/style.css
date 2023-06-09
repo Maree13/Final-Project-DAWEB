@@ -52,12 +52,17 @@ body {
   width: 50%;
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
 }
 
 .menu__languages {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 0px 20px;
+}
+
+.a__languages {
+  padding-right: 40px;
 }
 
 .menu__pages {
@@ -75,8 +80,9 @@ a {
   position: fixed;
   width: 100%;
   bottom: 0;
-  background-color: var(--secondary-color);
+  background-color: var(--button-color);
   font-size: 12px;
+  height: 80px;
 }
 
 .footer__copyright {
@@ -94,6 +100,7 @@ a {
   flex-direction: column;
   align-items: center;
   padding-top: 5%;
+  padding-bottom: 10%;
 }
 
 @media (min-width: 768px) {
@@ -108,18 +115,20 @@ a {
   background-color: var(--button-color);
   text-decoration: none;
   border-radius: 10px;
-  /* width: 300px; */
-  width: 70%;
+  width: 340px;
+  /* width: 70%; */
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
 }
 
 .image {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 340px;
+  border-radius: 10px;
 }
 
 .image01 {
@@ -131,11 +140,24 @@ a {
 }
 
 .image03 {
-  background-image: url('img/imahe03_man\ and\ woman\ sitting\ in\ lotus\ position\ with\ leaves\ and\ flowers.jpeg');
+  background-image: url('img/image03_man\ and\ woman\ sitting\ in\ lotus\ position\ with\ leaves\ and\ flowers.jpeg');
+}
+
+.logo {
+  margin-top: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+@media (min-width: 768px) {
+  .logo {
+    width: 70px;
+    height: 70px;
+  }
 }
 
 /* SOUNDS.HTML */
-.figure {
+.figure-sound {
   background-color: var(--button-color);
   border-radius: 10px;
   padding: 20px;
@@ -164,6 +186,6 @@ a {
   cursor: pointer;
   text-align: center;
   margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-bottom: 30%;
   /* display: block; */
 }
