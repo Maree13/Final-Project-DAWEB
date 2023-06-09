@@ -13,6 +13,12 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
 }
@@ -29,6 +35,48 @@ body {
   font-size: 20px;
 }
 
+
+/* MENU.HTML */
+.menu__header {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--secondary-color);
+  margin: 0;
+  height: 40%;
+  min-height: 100px;
+}
+
+.menu__hyperlinks {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__languages {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.menu__pages {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-color)
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  background-color: var(--secondary-color);
+}
+
+/* SOUNDS.HTML */
 .figure {
   background-color: var(--button-color);
   border-radius: 10px;
@@ -45,18 +93,19 @@ body {
   justify-content: center;
 }
 
-.button__sound--off {
+.button__off--sounds {
   all: unset;
-  /* NEFUNGUJE - Resetuje všetky štýly na predvolené hodnoty */
+  /* Resetuje všetky štýly na predvolené hodnoty */
   display: inline-block;
-  /* NEFUNGUJE - Toto umožní nastaviť padding a iné blokové štýly */
-  background-color: var(--button-color);
+  /* Toto umožní nastaviť padding a iné blokové štýly */
+  background-color: var(--primary-color);
   border-radius: 10px;
-  padding: 20px;
-  margin: 20px auto;
-  text-align: center;
+  padding: 0;
   border: none;
   outline: none;
   cursor: pointer;
+  text-align: center;
+  margin-top: 2rem;
+  margin-bottom: 3rem;
   /* display: block; */
 }
