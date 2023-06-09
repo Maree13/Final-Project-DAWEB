@@ -21,6 +21,7 @@ body {
 
 html {
   font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
 }
 
 /* .container {
@@ -32,7 +33,7 @@ html {
 body {
   background-color: var(--primary-color);
   color: var(--text-color);
-  font-size: 20px;
+  /* font-size: 20px; */
 }
 
 
@@ -44,6 +45,7 @@ body {
   margin: 0;
   height: 40%;
   min-height: 100px;
+  font-size: smaller;
 }
 
 .menu__hyperlinks {
@@ -74,6 +76,41 @@ a {
   width: 100%;
   bottom: 0;
   background-color: var(--secondary-color);
+  font-size: 12px;
+}
+
+.footer__copyright {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
+}
+
+.footer__copyright--text {
+  text-align: right;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5%;
+}
+
+@media (min-width: 768px) {
+  .main {
+    flex-direction: row;
+  }
+}
+
+.a__main {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: var(--button-color);
+  text-decoration: none;
+  border-radius: 10px;
+  width: 300px;
+  text-align: center;
+  margin-top: 2rem;
 }
 
 /* SOUNDS.HTML */
