@@ -108,9 +108,30 @@ a {
   background-color: var(--button-color);
   text-decoration: none;
   border-radius: 10px;
-  width: 300px;
+  /* width: 300px; */
+  width: 70%;
   text-align: center;
   margin-top: 2rem;
+}
+
+.image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  width: 200px;
+}
+
+.image01 {
+  background-image: url('img/image01_brunette_with_laptop.jpeg');
+}
+
+.image02 {
+  background-image: url('img/image02_woman\ exercising\ in\ the\ park.jpeg');
+}
+
+.image03 {
+  background-image: url('img/imahe03_man\ and\ woman\ sitting\ in\ lotus\ position\ with\ leaves\ and\ flowers.jpeg');
 }
 
 /* SOUNDS.HTML */
