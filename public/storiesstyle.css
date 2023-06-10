@@ -30,5 +30,12 @@
     border: 1px solid #DFF4F4;
     border-radius: 5px;
     margin-top: 10px;
+    font-size: small;
+    text-align: center;
+    padding-top: 8px;
   }
+
   
+  .stories1-main, .stories2-main, .stories3-main {
+    padding: 100px 20px 20px 20px;
+  }
