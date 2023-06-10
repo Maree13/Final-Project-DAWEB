@@ -9,6 +9,7 @@ import {
 import './style.css';
 import { Intro } from './pages/intro';
 import { Sounds } from './pages/sounds';
+import { english as lang } from './lang/en';
 
 const App = () => {
   return (
@@ -20,14 +21,14 @@ const App = () => {
           </div>
           <div className="menu menu__hyperlinks">
             <div className="menu__pages">
-              <Link className="a a__pages" to="menu.html">
-                Menu
+              <Link className="a a__pages" to="intro">
+                {lang.menu.intro}
               </Link>
-              <Link className="a a__pages" to="AboutUs.html">
-                About us
+              <Link className="a a__pages" to="AboutUs">
+                {lang.menu.aboutus}
               </Link>
-              <Link className="a a__pages" to="contact.html">
-                Contact
+              <Link className="a a__pages" to="contact">
+                {lang.menu.contact}
               </Link>
             </div>
             <div className="menu menu__languages">
