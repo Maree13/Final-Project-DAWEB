@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export const Intro = () => {
   return (
@@ -10,9 +11,9 @@ export const Intro = () => {
           alt="brunette_with_laptop"
         />
 
-        <a className="a a__main" href="stories.html">
+        <Link className="a a__main" to="stories.html">
           Bedtime stories
-        </a>
+        </Link>
       </figure>
       <figure className="figure-image">
         <img
@@ -20,9 +21,9 @@ export const Intro = () => {
           src="img/image02_woman exercising in the park.jpeg"
           alt="woman exercising in the park"
         />
-        <a className="a a__main" href="games.html">
+        <Link className="a a__main" to="games.html">
           Games for stress relief
-        </a>
+        </Link>
       </figure>
       <figure className="figure-image">
         <img
@@ -30,9 +31,9 @@ export const Intro = () => {
           src="img/image03_man and woman sitting in lotus position with leaves and flowers.jpeg"
           alt="man and woman sitting in lotus position with leaves and flowers"
         />
-        <a className="a a__main" href="sounds.html">
+        <Link className="a a__main" to="/sounds">
           Soothing sounds
-        </a>
+        </Link>
       </figure>
     </main>
   );

@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom';
 import './style.css';
 import { Intro } from './pages/intro';
+import { Sounds } from './pages/sounds';
 
 const App = () => {
   return (
@@ -19,15 +20,15 @@ const App = () => {
           </div>
           <div className="menu menu__hyperlinks">
             <div className="menu__pages">
-              <a className="a a__pages" href="menu.html">
+              <Link className="a a__pages" to="menu.html">
                 Menu
-              </a>
-              <a className="a a__pages" href="AboutUs.html">
+              </Link>
+              <Link className="a a__pages" to="AboutUs.html">
                 About us
-              </a>
-              <a className="a a__pages" href="contact.html">
+              </Link>
+              <Link className="a a__pages" to="contact.html">
                 Contact
-              </a>
+              </Link>
             </div>
             <div className="menu menu__languages">
               <a className="a a__languages">Uk</a>
@@ -60,6 +61,10 @@ const router = createBrowserRouter([
       {
         path: 'intro',
         element: <Intro />,
+      },
+      {
+        path: 'sounds',
+        element: <Sounds />,
       },
     ],
   },
