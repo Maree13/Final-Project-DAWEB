@@ -189,29 +189,73 @@ a {
   /* display: block; */
 }
 
+/* Page game */
 .game-main {
   display: flex;
   flex-wrap: wrap;
-  padding: 50px 0px 50px 0px;;
-  
+  padding: 50px 0px 50px 0px;
+  ;
+
 }
 
 .game-main figure {
   display: flex;
   flex: 0 1 calc(33% - 100px);
   align-items: start;
-  
+
 }
-.game-image1, .game-image2, .game-image3, .game-image4, .game-image5, .game-image6 {
+
+.game-image1,
+.game-image2,
+.game-image3,
+.game-image4,
+.game-image5,
+.game-image6 {
   width: 150px;
   height: 150px;
 }
-.game-text h2, .game-text p {
+
+.game-text h2,
+.game-text p {
   margin: 0px 0px 0px 10px;
   font-size: 18px;
 
 }
+
 .game-text p {
   margin: 10px 0px 0px 10px;
   font-size: 14px;
+}
+
+
+/* Page stories */
+
+.stories-main {
+  display: flex;
+  margin: 50px 0px 50px 100px;
+  flex-wrap: wrap;
+}
+
+.stories-main figure {
+  display: flex;
+  flex: 0 1 calc(33% - 100px);
+  align-items: start;
+  flex-direction: column;
+}
+
+.stories-image1,
+.stories-image2,
+.stories-image3 {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+
+.button-stories {
+  width: 200px;
+  height: 30px;
+  background-color: #DFF4F4;
+  border: 1px solid #DFF4F4;
+  border-radius: 5px;
+  margin-top: 10px;
 }
