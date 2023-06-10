@@ -213,6 +213,10 @@ a {
 }
 
 /* SOUNDS.HTML */
+audio {
+  max-width: 100%;
+}
+
 .figure-sound .image {
   height: 200px;
   width: 100%;
@@ -228,12 +232,17 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  align-items: center;
+  margin-top: 150px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 @media (min-width: 768px) {
   .container-sounds {
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 150px;
   }
 }
 
@@ -249,7 +258,7 @@ a {
   background-color: var(--button-color);
   border-radius: 5px;
   padding: 20px;
-  margin: 20px auto;
+  margin: 20px;
   width: 100%;
   max-width: 350px;
   /* height: 300px; */
@@ -258,7 +267,7 @@ a {
 
 @media (min-width: 768px) {
   .figure-sound {
-    width: 40%;
+    width: calc(100%/2);
   }
 }
 
@@ -291,7 +300,6 @@ a {
 }
 
 
-.figure__sound--morning {
+/* .figure__sound--morning {
   margin-top: 8rem;
-}
-
+} */
