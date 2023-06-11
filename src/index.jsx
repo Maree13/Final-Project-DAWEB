@@ -21,24 +21,11 @@ const App = () => {
             <img className="logo" src="img/logo.svg" alt="logo" />
           </div>
           <Navbar />
-          <div className="menu menu__hyperlinks">
-            <div className="menu__pages">
-              <Link className="a a__pages" to="intro">
-                {lang.menu.intro}
-              </Link>
-              <Link className="a a__pages" to="AboutUs">
-                {lang.menu.aboutus}
-              </Link>
-              <Link className="a a__pages" to="contact">
-                {lang.menu.contact}
-              </Link>
-            </div>
-            <div className="menu menu__languages">
-              <a className="a a__languages">Uk</a>
-              <a className="a a__languages">Sk</a>
-              <a className="a a__languages">Cz</a>
-              <a className="a a__languages">En</a>
-            </div>
+          <div className="menu menu__languages">
+            <a className="a a__languages">Uk</a>
+            <a className="a a__languages">Sk</a>
+            <a className="a a__languages">Cz</a>
+            <a className="a a__languages">En</a>
           </div>
         </menu>
       </header>

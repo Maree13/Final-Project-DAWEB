@@ -311,14 +311,6 @@ audio {
 
 /* HAMBURGER MENU STYLES */
 
-/* Show the hamburger button only on small screens */
-.menu__toggle {
-  display: none;
-}
-
-.menu__hyperlinks {
-  display: flex;
-}
 
 /* Switch to hamburger menu on small screens */
 @media (max-width: 768px) {
@@ -329,11 +321,19 @@ audio {
   }
 
   .menu__hyperlinks {
-    display: none;
+    flex-direction: column;
   }
 
   /* Show the menu when the state showLinks is true (i.e., when the hamburger is clicked) */
   .menu__hyperlinks.show-menu {
     display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 769px) {
+  .menu__hyperlinks {
+    display: flex;
+    flex-direction: row;
   }
 }
