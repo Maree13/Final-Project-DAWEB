@@ -10,6 +10,7 @@ import './style.css';
 import { Intro } from './pages/intro';
 import { Sounds } from './pages/sounds';
 import { english as lang } from './lang/en';
+import { Navbar } from './pages/navbar';
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
           <div className="menu menu__logo">
             <img className="logo" src="img/logo.svg" alt="logo" />
           </div>
+          <Navbar />
           <div className="menu menu__hyperlinks">
             <div className="menu__pages">
               <Link className="a a__pages" to="intro">

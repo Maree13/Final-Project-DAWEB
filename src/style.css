@@ -308,3 +308,32 @@ audio {
 /* .figure__sound--morning {
   margin-top: 8rem;
 } */
+
+/* HAMBURGER MENU STYLES */
+
+/* Show the hamburger button only on small screens */
+.menu__toggle {
+  display: none;
+}
+
+.menu__hyperlinks {
+  display: flex;
+}
+
+/* Switch to hamburger menu on small screens */
+@media (max-width: 768px) {
+  .menu__toggle {
+    display: block;
+    padding: 10px;
+    width: 50px;
+  }
+
+  .menu__hyperlinks {
+    display: none;
+  }
+
+  /* Show the menu when the state showLinks is true (i.e., when the hamburger is clicked) */
+  .menu__hyperlinks.show-menu {
+    display: flex;
+  }
+}
