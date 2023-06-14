@@ -13,6 +13,7 @@ import { english as lang } from './lang/en';
 import { Navbar } from './pages/navbar';
 import { Stories } from './pages/stories';
 import './storiesstyle.css';
+import { Stories1 } from './pages/stories1';
 
 const App = () => {
   return (
@@ -61,6 +62,12 @@ const router = createBrowserRouter([
       {
         path: 'stories',
         element: <Stories />,
+        children: [
+          {
+            path: 'stories1',
+            element: <Stories1 />,
+          },
+        ],
       },
     ],
   },

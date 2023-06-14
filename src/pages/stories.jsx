@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 
 export const Stories = () => {
   return (
@@ -12,7 +12,7 @@ export const Stories = () => {
             alt="story1"
           />
         </Link>
-        <Link className="button-stories" to="/stories1">
+        <Link className="button-stories" to="/stories/stories1">
           Read
         </Link>
       </figure>
@@ -42,6 +42,8 @@ export const Stories = () => {
           Read
         </Link>
       </figure>
+
+      <Outlet />
     </main>
   );
 };
