@@ -11,7 +11,7 @@ export const Intro = () => {
           alt="brunette_with_laptop"
         />
 
-        <Link className="a a__main" to="stories.html">
+        <Link className="a a__main" to="/stories">
           Bedtime stories
         </Link>
       </figure>

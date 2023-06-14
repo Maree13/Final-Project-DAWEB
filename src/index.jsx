@@ -11,6 +11,8 @@ import { Intro } from './pages/intro';
 import { Sounds } from './pages/sounds';
 import { english as lang } from './lang/en';
 import { Navbar } from './pages/navbar';
+import { Stories } from './pages/stories';
+import './storiesstyle.css';
 
 const App = () => {
   return (
@@ -55,6 +57,10 @@ const router = createBrowserRouter([
       {
         path: 'sounds',
         element: <Sounds />,
+      },
+      {
+        path: 'stories',
+        element: <Stories />,
       },
     ],
   },
