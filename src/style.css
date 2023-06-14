@@ -76,11 +76,7 @@ header {
   right: 0;
 }
 
-.menu__pages {
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-}
+
 
 .menu__hyperlinks a {
   text-decoration: none;
@@ -310,30 +306,85 @@ audio {
 } */
 
 /* HAMBURGER MENU STYLES */
+/* PRIDAVAM NOVY KOD KTORY MA VYPNUT A ZAPNUT MENU PODLA VELKOSTI ZARIADENIA */
 
+.menu__pages {
+  display: none;
+}
 
+.menu__pages--mobile {
+  display: flex;
+}
+
+.menu__toggle {
+  display: block;
+  padding: 10px;
+  width: 50px;
+}
+
+@media (min-width: 768px) {
+  .menu__pages {
+    display: flex;
+  }
+
+  .menu__pages--mobile {
+    display: none;
+  }
+
+  .menu__toggle {
+    display: none;
+  }
+}
+
+/* .menu__pages {
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+  display: none;
+} */
+
+/*.menu__pages--mobile {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .menu__pages {
+    display: flex;
+  }
+
+  .menu__pages--mobile {
+    display: none;
+  }
+}
+
+*/
 /* Switch to hamburger menu on small screens */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
   .menu__toggle {
     display: block;
     padding: 10px;
     width: 50px;
   }
-
-  .menu__hyperlinks {
-    flex-direction: column;
-  }
-
-  /* Show the menu when the state showLinks is true (i.e., when the hamburger is clicked) */
-  .menu__hyperlinks.show-menu {
-    display: flex;
-    flex-direction: column;
-  }
 }
 
+.menu__hyperlinks {
+  flex-direction: column; 
+}*/
+
+/* Show the menu when the state showLinks is true (i.e., when the hamburger is clicked) */
+/* .menu__hyperlinks.show-menu {
+  display: flex;
+  flex-direction: column;
+} */
+
+
+/* 
 @media (min-width: 769px) {
   .menu__hyperlinks {
     display: flex;
     flex-direction: row;
-  }
-}
+  } */
+
+/* .menu__hyperlinks.show-menu {
+    display: none;
+  } */
