@@ -314,6 +314,13 @@ audio {
 
 .menu__pages--mobile {
   display: flex;
+  flex-direction: column;
+  margin-top: 10%;
+  position: absolute;
+  background-color: none;
+  border-radius: 5px;
+  margin-left: 60%;
+  font-size: larger;
 }
 
 .menu__toggle {
