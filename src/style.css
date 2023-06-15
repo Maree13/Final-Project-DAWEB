@@ -367,10 +367,16 @@ audio {
   text-decoration: none;
   color: var(--text-color);
   font-size: 30px;
+  padding: 10px 20px 0 10px;
 }
 
 @media (min-width: 768px) {
   .contact__link--github {
     font-size: 80px;
   }
+}
+
+.contact__link--github:hover,
+.fa-github:hover {
+  color: #00B1CB;
 }
