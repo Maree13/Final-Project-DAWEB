@@ -16,6 +16,9 @@ import './storiesstyle.css';
 import { Stories1 } from './pages/stories1';
 import { Stories2 } from './pages/stories2';
 import { Stories3 } from './pages/stories3';
+import { Games } from './pages/games';
+import { AboutUs } from './pages/aboutus';
+import { Contact } from './pages/contact';
 
 const App = () => {
   return (
@@ -78,6 +81,18 @@ const router = createBrowserRouter([
             element: <Stories3 />,
           },
         ],
+      },
+      {
+        path: 'games',
+        element: <Games />,
+      },
+      {
+        path: 'aboutus',
+        element: <AboutUs />,
+      },
+      {
+        path: 'contact',
+        element: <Contact />,
       },
     ],
   },

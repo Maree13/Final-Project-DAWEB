@@ -343,55 +343,34 @@ audio {
   }
 }
 
-/* .menu__pages {
-  width: 80%;
-  display: flex;
-  justify-content: space-around;
-  display: none;
-} */
+/* CONTACT STYLES */
 
-/*.menu__pages--mobile {
+.main__contact {
   display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  padding-top: 20%;
+  padding-bottom: 10%;
+}
+
+.menu__github--icon {
+  font-size: 5rem;
+}
+
+.fa-github {
+  /*font-size: 2.5em;*/
+  color: var(--text-color);
+  margin-right: 20px;
+}
+
+.contact__link--github {
+  text-decoration: none;
+  color: var(--text-color);
+  font-size: 30px;
 }
 
 @media (min-width: 768px) {
-  .menu__pages {
-    display: flex;
-  }
-
-  .menu__pages--mobile {
-    display: none;
+  .contact__link--github {
+    font-size: 80px;
   }
 }
-
-*/
-/* Switch to hamburger menu on small screens */
-/* @media (max-width: 768px) {
-  .menu__toggle {
-    display: block;
-    padding: 10px;
-    width: 50px;
-  }
-}
-
-.menu__hyperlinks {
-  flex-direction: column; 
-}*/
-
-/* Show the menu when the state showLinks is true (i.e., when the hamburger is clicked) */
-/* .menu__hyperlinks.show-menu {
-  display: flex;
-  flex-direction: column;
-} */
-
-
-/* 
-@media (min-width: 769px) {
-  .menu__hyperlinks {
-    display: flex;
-    flex-direction: row;
-  } */
-
-/* .menu__hyperlinks.show-menu {
-    display: none;
-  } */

@@ -21,7 +21,7 @@ export const Intro = () => {
           src="img/image02_woman exercising in the park.jpeg"
           alt="woman exercising in the park"
         />
-        <Link className="a a__main" to="games.html">
+        <Link className="a a__main" to="/games">
           Games for stress relief
         </Link>
       </figure>
