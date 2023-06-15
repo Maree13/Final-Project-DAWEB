@@ -25,7 +25,7 @@ export const Stories = () => {
             alt="story2"
           />
         </Link>
-        <Link className="button-stories" to="/stories2">
+        <Link className="button-stories" to="/stories/stories2">
           Read
         </Link>
       </figure>
@@ -38,7 +38,7 @@ export const Stories = () => {
             alt="story3"
           />
         </Link>
-        <Link className="button-stories" to="/stories3">
+        <Link className="button-stories" to="/stories/stories3">
           Read
         </Link>
       </figure>

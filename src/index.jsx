@@ -14,6 +14,8 @@ import { Navbar } from './pages/navbar';
 import { Stories } from './pages/stories';
 import './storiesstyle.css';
 import { Stories1 } from './pages/stories1';
+import { Stories2 } from './pages/stories2';
+import { Stories3 } from './pages/stories3';
 
 const App = () => {
   return (
@@ -66,6 +68,14 @@ const router = createBrowserRouter([
           {
             path: 'stories1',
             element: <Stories1 />,
+          },
+          {
+            path: 'stories2',
+            element: <Stories2 />,
+          },
+          {
+            path: 'stories3',
+            element: <Stories3 />,
           },
         ],
       },
