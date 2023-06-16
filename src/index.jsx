@@ -42,11 +42,9 @@ const App = () => {
         <Outlet />
       </main>
       <footer className="footer">
-        <div className="footer__copyright">
-          <span className="footer__copyright--text">
-            &copy; 2023 text about the project its support and copyright
-          </span>
-        </div>
+        <p className="footer__copyright--text">
+          &copy; 2023 Vira Derevianko & Mariana Sarovic, Czechitas
+        </p>
       </footer>
     </div>
   );
