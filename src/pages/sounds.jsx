@@ -6,7 +6,11 @@ export const Sounds = () => {
       <div className="container-sounds">
         <figure className="figure-sound figure__sound--morning">
           <figcaption>Morning</figcaption>
-          <img className="image image07" src="img/image07.svg" alt="img07" />
+          <img
+            className="image image07"
+            src="img/img_morning.jpeg"
+            alt="morning"
+          />
           <audio
             controls
             loop
@@ -20,7 +24,11 @@ export const Sounds = () => {
 
         <figure className="figure-sound figure__sound--dishes">
           <figcaption>Dishes</figcaption>
-          <img className="image image08" src="img/image08.svg" alt="img08" />
+          <img
+            className="image image08"
+            src="img/img_dishes.jpeg"
+            alt="dishes"
+          />
           <audio
             controls
             loop
@@ -34,7 +42,11 @@ export const Sounds = () => {
 
         <figure className="figure-sound figure__sound--lake">
           <figcaption>Lake</figcaption>
-          <img className="image image07" src="img/image07.svg" alt="img07" />
+          <img
+            className="image image07"
+            src="img/img_waves.jpeg"
+            alt="meditation"
+          />
           <audio
             controls
             loop
@@ -48,7 +60,11 @@ export const Sounds = () => {
 
         <figure className="figure-sound figure__sound--washing">
           <figcaption>Washing</figcaption>
-          <img className="image image07" src="img/image07.svg" alt="img07" />
+          <img
+            className="image image07"
+            src="img/img_laundry.jpeg"
+            alt="laundry"
+          />
           <audio
             controls
             loop
@@ -62,7 +78,11 @@ export const Sounds = () => {
 
         <figure className="figure-sound figure__sound--lullaby">
           <figcaption>Lullaby</figcaption>
-          <img className="image image07" src="img/image07.svg" alt="img07" />
+          <img
+            className="image image07"
+            src="img/img_lullaby.jpeg"
+            alt="img07"
+          />
           <audio
             controls
             loop
@@ -76,7 +96,7 @@ export const Sounds = () => {
 
         <figure className="figure-sound figure__sound--night">
           <figcaption>Night</figcaption>
-          <img className="image image07" src="img/image07.svg" alt="img07" />
+          <img className="image image07" src="img/img_sleep.jpeg" alt="img07" />
           <audio
             controls
             loop
