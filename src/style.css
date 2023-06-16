@@ -413,8 +413,46 @@ audio {
   }
 }
 
-/* // FIGURE GRID  */
-.figure__foto--vira {
+/* // FIGURE ABOUT US  */
+
+.figure__foto--vira,
+.figure__foto--mari {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+@media (min-width: 768px) {
+
+  .figure__foto--vira,
+  .figure__foto--mari {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.figure__aboutus--textpart {
+  display: flex;
+  flex-direction: column;
+}
+
+/* STYLOVANI h1 */
+
+.figure__profile--title {
+  margin-top: 30px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.figure__profile--paragraph {
+  text-align: center;
+}
+
+
+
+/* .figure__foto--vira {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
@@ -444,21 +482,4 @@ audio {
 
 .figure__foto--mari .figure__aboutus--textpart {
   grid-area: img;
-}
-
-@media (min-width: 768px) {
-
-  .figure__foto--vira,
-  .figure__foto--mari {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
-/* STYLOVANI h1 */
-
-.figure__profile--title {
-  margin-top: 0;
-  font-size: 24px;
-}
+} */
