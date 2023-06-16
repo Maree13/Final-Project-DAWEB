@@ -381,3 +381,12 @@ audio {
 .fa-github:hover {
   color: #00B1CB;
 }
+
+/* ABOUT US */
+
+
+.img__profile {
+  width: 200px;
+  height: auto;
+  border-radius: 5px;
+}

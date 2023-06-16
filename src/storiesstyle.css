@@ -24,20 +24,18 @@
 }
 
 .button-stories {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: inline-block;
   text-decoration: none;
   font-size: 18px;
+  color: var(--text-color);
   width: 200px;
   height: 30px;
   background-color: #DFF4F4;
   border: 1px solid #DFF4F4;
   border-radius: 5px;
   margin-top: 10px;
-  /* text-align: center; */
-  padding-top: 10px;
-  padding-bottom: 10px;
+  text-align: center;
+  margin: 10px 0 10px 0;
 }
 
 .button-stories:hover,

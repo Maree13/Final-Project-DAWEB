@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom';
 export const AboutUs = () => {
   return (
     <main className="main__aboutus">
-      <div className="main__vira">
+      <div className="figure__aboutus figure__aboutus--vira">
         <figure className="figure__foto--mari">
           <img
-            className="img__profile--vira"
+            className="img__profile img__profile--vira"
             src="img/Vira.jpg"
             alt="Vira profile"
           />
@@ -20,10 +20,10 @@ export const AboutUs = () => {
           </p>
         </figure>
       </div>
-      <div className="main__mari">
+      <div className="figure__aboutus figure__aboutus--mari">
         <figure className="figure__foto--mari">
           <img
-            className="img__profile--mari"
+            className="img__profile img__profile--mari"
             src="img/Mari.JPG"
             alt="Mari profile"
           />
