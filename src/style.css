@@ -209,6 +209,7 @@ header {
   display: inline-block;
   padding: 10px 20px;
   background-color: var(--button-color);
+  color: var(--text-color);
   text-decoration: none;
   border-radius: 5px;
   width: 100%;
@@ -283,6 +284,7 @@ audio {
   }
 }
 
+
 .figure-sound {
   background-color: var(--button-color);
   border-radius: 5px;
@@ -345,7 +347,7 @@ audio {
   flex-direction: column;
   margin-top: 10%;
   position: absolute;
-  background-color: none;
+  /* background-color: none; */
   border-radius: 5px;
   margin-left: 60%;
   font-size: larger;
@@ -477,36 +479,8 @@ audio {
   text-align: center;
 }
 
+/* APP NAME */
 
+.app-name {}
 
-/* .figure__foto--vira {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  grid-template-areas: "text img";
-  text-align: center;
-}
-
-.figure__foto--vira img {
-  grid-area: text;
-}
-
-.figure__foto--vira .figure__aboutus--textpart {
-  grid-area: img;
-}
-
-.figure__foto--mari {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  grid-template-areas: "img text";
-  text-align: center;
-}
-
-.figure__foto--mari img {
-  grid-area: text;
-}
-
-.figure__foto--mari .figure__aboutus--textpart {
-  grid-area: img;
-} */
+.menu__logo {}
