@@ -19,6 +19,7 @@ import { Stories3 } from './pages/stories3';
 import { Games } from './pages/games';
 import { AboutUs } from './pages/aboutus';
 import { Contact } from './pages/contact';
+import './gamestyle.css';
 
 const App = () => {
   return (
