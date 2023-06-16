@@ -387,6 +387,78 @@ audio {
 
 .img__profile {
   width: 200px;
-  height: auto;
+  height: 200px;
   border-radius: 5px;
+  margin-top: 20px;
+}
+
+@media (min-width: 768px) {
+  .img__profile {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+.main__aboutus {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  padding-top: 100px;
+}
+
+@media (min-width: 768px) {
+  .main__aboutus {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 130px;
+  }
+}
+
+/* // FIGURE GRID  */
+.figure__foto--vira {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  grid-template-areas: "text img";
+  text-align: center;
+}
+
+.figure__foto--vira img {
+  grid-area: text;
+}
+
+.figure__foto--vira .figure__aboutus--textpart {
+  grid-area: img;
+}
+
+.figure__foto--mari {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  grid-template-areas: "img text";
+  text-align: center;
+}
+
+.figure__foto--mari img {
+  grid-area: text;
+}
+
+.figure__foto--mari .figure__aboutus--textpart {
+  grid-area: img;
+}
+
+@media (min-width: 768px) {
+
+  .figure__foto--vira,
+  .figure__foto--mari {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* STYLOVANI h1 */
+
+.figure__profile--title {
+  margin-top: 0;
+  font-size: 24px;
 }
