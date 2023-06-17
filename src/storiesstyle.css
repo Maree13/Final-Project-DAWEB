@@ -2,8 +2,10 @@
 
 .stories-main {
   display: flex;
-  margin: 50px 0px 50px 80px;
+  /* margin: 50px 0px 50px 80px; */
   flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
 }
 
 .stories-main figure {
