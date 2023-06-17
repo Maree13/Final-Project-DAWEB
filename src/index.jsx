@@ -45,7 +45,8 @@ const App = () => {
       </main>
       <footer className="footer">
         <p className="footer__copyright--text">
-          &copy; 2023 Vira Derevianko & Mariana Sarovic, Czechitas
+          &copy; 2023 Czechitas, Vira Derevjanko, Mariana Sarovic, mentor
+          projektu Matej Sima
         </p>
       </footer>
     </div>
