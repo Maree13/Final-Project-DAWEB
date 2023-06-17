@@ -8,6 +8,7 @@
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Kaushan+Script&display=swap');
 
 * {
   box-sizing: border-box;
@@ -48,6 +49,25 @@ body {
 
 
 /* MENU.HTML */
+
+.app-name {
+  font-family: 'Kaushan Script', 'Lobster', cursive;
+  color: #00B1CB;
+  text-align: center;
+  padding-left: 7px;
+}
+
+.menu__logo {
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media (min-width: 768px) {
+  .app-name {
+    font-size: 40px;
+  }
+}
+
 
 header {
   position: fixed;

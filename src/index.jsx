@@ -29,8 +29,9 @@ const App = () => {
         <menu className="menu__header">
           <div className="menu menu__logo">
             <img className="logo" src="img/logo.svg" alt="logo" />
+            <h1 class="app-name">InnerOK</h1>
           </div>
-          <h1 class="app-name"></h1>
+
           <Navbar />
           <div className="menu menu__languages">
             <a className="a a__languages">Uk</a>
