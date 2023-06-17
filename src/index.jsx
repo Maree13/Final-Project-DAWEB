@@ -5,6 +5,7 @@ import {
   RouterProvider,
   Link,
   Outlet,
+  Navigate,
 } from 'react-router-dom';
 import './style.css';
 import { Intro } from './pages/intro';
@@ -56,6 +57,10 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
     children: [
+      {
+        path: '/',
+        element: <Navigate to="/intro" replace />,
+      },
       {
         path: 'intro',
         element: <Intro />,
