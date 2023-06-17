@@ -14,8 +14,16 @@ export const Sounds = () => {
           <audio
             controls
             loop
-            src="./sounds-folder/490244__bird_singing_morning.ogg"
+            // src="./sounds-folder/490244__bird_singing_morning.ogg"
           >
+            <source
+              src="./sounds-folder/490244__bird_singing_morning.ogg"
+              type="audio/ogg; codecs=vorbis"
+            />
+            <source
+              src="./sounds-folder/490244__bird_singing_morning.wav"
+              type="audio/wav"
+            />
             <a href="./sounds-folder/490244__bird_singing_morning.ogg">
               Download audio
             </a>
