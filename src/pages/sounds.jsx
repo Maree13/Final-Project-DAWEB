@@ -40,8 +40,16 @@ export const Sounds = () => {
           <audio
             controls
             loop
-            src="./sounds-folder/246177__home_washing-dishes.ogg"
+            // src="./sounds-folder/246177__home_washing-dishes.ogg"
           >
+            <source
+              src="./sounds-folder/246177__home_washing-dishes.ogg"
+              type="audio/ogg; codecs=vorbis"
+            />
+            <source
+              src="./sounds-folder/246177__home_washing-dishes.ogg"
+              type="audio/wav"
+            />
             <a href="./sounds-folder/246177__home_washing-dishes.ogg">
               Download audio
             </a>
@@ -58,8 +66,16 @@ export const Sounds = () => {
           <audio
             controls
             loop
-            src="./sounds-folder/573191__waves-gentle-lake-water.ogg"
+            // src="./sounds-folder/573191__waves-gentle-lake-water.ogg"
           >
+            <source
+              src="./sounds-folder/573191__waves-gentle-lake-water.ogg"
+              type="audio/ogg; codecs=vorbis"
+            />
+            <source
+              src="./sounds-folder/573191__waves-gentle-lake-water.ogg"
+              type="audio/wav"
+            />
             <a href="./sounds-folder/573191__waves-gentle-lake-water.ogg">
               Download audio
             </a>
@@ -76,8 +92,16 @@ export const Sounds = () => {
           <audio
             controls
             loop
-            src="./sounds-folder/631883__home_washing-machine-cycle.ogg"
+            // src="./sounds-folder/631883__home_washing-machine-cycle.ogg"
           >
+            <source
+              src="./sounds-folder/631883__home_washing-machine-cycle.ogg"
+              type="audio/ogg; codecs=vorbis"
+            />
+            <source
+              src="./sounds-folder/631883__home_washing-machine-cycle.ogg"
+              type="audio/wav"
+            />
             <a href="/sounds-folder/631883__home_washing-machine-cycle.ogg">
               Download audio
             </a>
@@ -94,8 +118,16 @@ export const Sounds = () => {
           <audio
             controls
             loop
-            src="./sounds-folder/432152__music-box-magic-flute-mozart.ogg"
+            // src="./sounds-folder/432152__music-box-magic-flute-mozart.ogg"
           >
+            <source
+              src="./sounds-folder/432152__music-box-magic-flute-mozart.ogg"
+              type="audio/ogg; codecs=vorbis"
+            />
+            <source
+              src="./sounds-folder/432152__music-box-magic-flute-mozart.ogg"
+              type="audio/wav"
+            />
             <a href="./sounds-folder/432152__music-box-magic-flute-mozart.ogg">
               Download audio
             </a>
@@ -108,8 +140,16 @@ export const Sounds = () => {
           <audio
             controls
             loop
-            src="./sounds-folder/196161__crickets-birds-at-night-cedarsforest.ogg"
+            // src="./sounds-folder/196161__crickets-birds-at-night-cedarsforest.ogg"
           >
+            <source
+              src="./sounds-folder/196161__crickets-birds-at-night-cedarsforest.ogg"
+              type="audio/ogg; codecs=vorbis"
+            />
+            <source
+              src="./sounds-folder/196161__crickets-birds-at-night-cedarsforest.ogg"
+              type="audio/wav"
+            />
             <a href="./sounds-folder/196161__crickets-birds-at-night-cedarsforest.ogg">
               Download audio
             </a>
