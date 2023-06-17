@@ -11,25 +11,29 @@
   flex: 0 1 calc(33% - 100px);
   justify-content: space-between;
   margin-top: 110px;
-  align-items: start;
+  /* align-items: start; */
+  align-items: center;
   flex-direction: column;
 }
 
 .stories-image1,
 .stories-image2,
 .stories-image3 {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border-radius: 5px;
 }
 
 .button-stories {
-  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* display: inline-block; */
   text-decoration: none;
   font-size: 18px;
   color: var(--text-color);
-  width: 200px;
-  height: 30px;
+  width: 300px;
+  height: 40px;
   background-color: #DFF4F4;
   border: 1px solid #DFF4F4;
   border-radius: 5px;
