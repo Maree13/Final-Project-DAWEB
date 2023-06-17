@@ -410,19 +410,25 @@ audio {
 .fa-github {
   /*font-size: 2.5em;*/
   color: var(--text-color);
-  margin-right: 20px;
+  margin-right: 24px;
 }
 
 .contact__link--github {
   text-decoration: none;
   color: var(--text-color);
-  font-size: 30px;
+  font-size: 18px;
   padding: 10px 20px 0 10px;
 }
 
 @media (min-width: 768px) {
   .contact__link--github {
-    font-size: 80px;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact__link--github {
+    font-size: 70px;
   }
 }
 
@@ -498,9 +504,3 @@ audio {
 .figure__profile--paragraph {
   text-align: center;
 }
-
-/* APP NAME */
-
-.app-name {}
-
-.menu__logo {}
