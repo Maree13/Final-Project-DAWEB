@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 export const Stories1 = () => {
+  const myRef = useRef(null);
+
+  useEffect(() => {
+    myRef.current.scrollIntoView({ behavior: 'smooth' });
+  }, []);
+
   return (
     <main className="stories1-main">
-      <h1>The Tree That Wanted to Travel</h1>
+      <h1 ref={myRef}>The Tree That Wanted to Travel</h1>
       <p>
         In a small village, near a great forest, lived a very special tree named
         Tilly. Tilly had lived in the village for a very long time, her branches

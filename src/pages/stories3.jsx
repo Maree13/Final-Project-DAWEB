@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 export const Stories3 = () => {
+  const myRef = useRef(null);
+
+  useEffect(() => {
+    myRef.current.scrollIntoView({ behavior: 'smooth' });
+  }, []);
+
   return (
     <main className="stories3-main">
-      <h1>Stories 3</h1>
+      <h1 ref={myRef}>Stories 3</h1>
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro, dolorem
         quisquam quas ea provident quae ex? Enim quae aperiam vero. Laborum

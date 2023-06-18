@@ -1,10 +1,16 @@
-import React from 'react';
+import React, { useEffect, useRef } from 'react';
 import { Link } from 'react-router-dom';
 
 export const Stories2 = () => {
+  const myRef = useRef(null);
+
+  useEffect(() => {
+    myRef.current.scrollIntoView({ behavior: 'smooth' });
+  }, []);
+
   return (
     <main className="stories2-main">
-      <h1>Flicker's Glow: A Firefly's Rhythm</h1>
+      <h1 ref={myRef}>Flicker's Glow: A Firefly's Rhythm</h1>
       <p>
         Once upon a time, in a land full of twilight hues, there lived a little
         firefly named Flicker. Flicker was the tiniest amongst his firefly
