@@ -29,7 +29,7 @@ const App = () => {
         <menu className="menu__header">
           <div className="menu menu__logo">
             <img className="logo" src="img/logo.svg" alt="logo" />
-            <h1 class="app-name">InnerOK</h1>
+            <h1 className="app-name">InnerOK</h1>
           </div>
 
           <Navbar />

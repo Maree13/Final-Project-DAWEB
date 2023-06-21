@@ -7,6 +7,7 @@ export const Navbar = () => {
   const [showLinks, setShowLinks] = useState(false);
 
   const toggleMenu = () => setShowLinks(!showLinks);
+  console.log(showLinks);
 
   // const renderMenuLinks = () => {
   //   if (showLinks) {
