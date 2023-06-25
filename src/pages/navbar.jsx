@@ -9,27 +9,6 @@ export const Navbar = () => {
   const toggleMenu = () => setShowLinks(!showLinks);
   console.log(showLinks);
 
-  // const renderMenuLinks = () => {
-  //   if (showLinks) {
-  //     return (
-  //       <div className="menu menu__hyperlinks">
-  //         <div className="menu__pages menu__pages--mobile">
-  //           <Link className="a a__pages" to="/intro">
-  //             {lang.menu.intro}
-  //           </Link>
-  //           <Link className="a a__pages" to="/AboutUs">
-  //             {lang.menu.aboutus}
-  //           </Link>
-  //           <Link className="a a__pages" to="/contact">
-  //             {lang.menu.contact}
-  //           </Link>
-  //         </div>
-  //       </div>
-  //     );
-  //   }
-  //   return null;
-  // };
-
   return (
     <>
       <div onClick={toggleMenu} className="menu__toggle">

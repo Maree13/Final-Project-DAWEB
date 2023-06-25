@@ -82,6 +82,13 @@ header {
   width: calc(100% / 3)
 }
 
+/* POUZITO IMPORTANT - NEVIEM AKO INAK VYRIESIT ABY SA MENU SPRAVNE ZOBRAZOVALO V TABLETOVEJ A PC VERZII  */
+@media (min-width: 768px) {
+  .menu {
+    display: inline-flex;
+  }
+}
+
 .menu__header {
   position: relative;
   display: flex;
@@ -134,7 +141,7 @@ header {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1100px) {
   .main__menu {
     flex-direction: row;
     margin-top: 120px;
@@ -381,6 +388,9 @@ audio {
   display: block;
   padding: 10px;
   width: 50px;
+  margin-bottom: 40px;
+  margin-left: 40px;
+  z-index: 10;
 }
 
 @media (min-width: 768px) {
@@ -411,7 +421,7 @@ audio {
 .menu__github--email {
   text-decoration: none;
   color: var(--text-color);
-  font-size: 18px;
+  font-size: 20px;
   /* padding: 10px 20px 0 10px; */
   padding-bottom: 25px;
 }
