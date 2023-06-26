@@ -414,14 +414,25 @@ audio {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  padding-top: 20%;
-  padding-bottom: 10%;
+  /* padding-top: 20%;
+  padding-bottom: 10%; */
+  margin-top: 200px;
+  margin-bottom: 200px;
+}
+
+@media (min-width: 768px) {
+  .main__contact {
+    flex-direction: row;
+    align-items: baseline;
+    margin-top: 300px;
+    margin-bottom: 300px;
+  }
 }
 
 .menu__github--email {
   text-decoration: none;
   color: var(--text-color);
-  font-size: 20px;
+  font-size: 30px;
   /* padding: 10px 20px 0 10px; */
   padding-bottom: 25px;
 }
@@ -439,17 +450,19 @@ audio {
 }
 
 .menu__github--icon {
-  font-size: 5rem;
+  /* font-size: 5rem; */
+  font-size: 70px;
 }
 
 .fa-github {
   /*font-size: 2.5em;*/
   color: var(--text-color);
-  margin-right: 24px;
+  /* margin-right: 24px; */
+  font-size: 35px;
 }
 
 .menu__linkedin--icon {
-  font-size: 18px;
+  font-size: 35px;
 }
 
 
@@ -462,7 +475,8 @@ audio {
 
 @media (min-width: 1200px) {
   .menu__linkedin--icon {
-    font-size: 4rem;
+    /* font-size: 4rem; */
+    font-size: 40px;
   }
 }
 

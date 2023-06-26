@@ -25,7 +25,7 @@ export const Contact = () => {
       <div className="menu__linkedin--icon">
         <a
           class="contact__link--linkedin"
-          href="https://www.linkedin.com/in/your-linkedin-username"
+          href="https://www.linkedin.com/in/mariana-sarovic-235487127/"
           target="_blank"
           rel="noopener noreferrer"
         >
