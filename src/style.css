@@ -103,6 +103,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 2px;
 }
 
 .menu__languages {
@@ -118,7 +119,7 @@ header {
 .menu__hyperlinks a {
   text-decoration: none;
   color: var(--text-color);
-  padding: 10px 20px 0 10px;
+  /* padding: 10px 20px 0 10px; */
 }
 
 .a:hover {
@@ -404,6 +405,20 @@ audio {
 
   .menu__toggle {
     display: none;
+  }
+}
+
+.a__pages {
+  background-color: var(--button-color);
+  width: 100%;
+  border-radius: 5px;
+  text-align: center;
+  padding: 7px 15px;
+}
+
+@media (min-width: 768px) {
+  .a__pages {
+    background-color: transparent;
   }
 }
 
