@@ -14,10 +14,14 @@ export const AboutUs = () => {
           <div class="figure__aboutus--textpart">
             <h1 class="figure__profile--title">Vira</h1>
             <p className="figure__profile--paragraph">
-              Mám ráda život a hory. V každé situaci se snažím najít pozitiv. A
+              I like life and mountains. I try to find the positives in every
+              situation. And the main reason I want to join IT is the people. I
+              want to work, study and communicate with people who are open to
+              everything: new changes, challenges, acquaintances, movement.
+              {/* Mám ráda život a hory. V každé situaci se snažím najít pozitiv. A
               hlavním důvodem, proč se já chci přidat do IT, jsou lidé. Chci
               pracovat, studovat a komunikovat s lidmi, kteří jsou otevření
-              všemu: novým změnám, výzvám, známostem, pohybu.
+              všemu: novým změnám, výzvám, známostem, pohybu. */}
             </p>
           </div>
         </figure>
