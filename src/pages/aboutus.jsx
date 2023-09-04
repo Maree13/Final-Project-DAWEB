@@ -32,11 +32,17 @@ export const AboutUs = () => {
           <div class="figure__aboutus--textpart">
             <h1 class="figure__profile--title">Mari</h1>
             <p className="figure__profile--paragraph">
-              Na svojej ceste za vzdelanim som bola vždy skôr humanitne
+              In my educational journey, I have always been more towards the
+              arts, so programming is a special challenge for me. I have chosen
+              web development because I can combine logic and graphic design in
+              it. I like to be involved in projects that have an outreach and
+              can help people. I am happiest in the mountains and in the love of
+              good coffee.
+              {/* Na svojej ceste za vzdelanim som bola vždy skôr humanitne
               zameraná, a tak je pre mňa programovanie veľkou výzvou. Web som si
               vybrala preto, lebo v ňom môžem skĺbiť logiku a design. Rada sa
               podieľam na projektoch, ktoré maju presah a môžu ľuďom pomôcť.
-              Najšťastnejšia som na samote v horách a milujem kávu.
+              Najšťastnejšia som na samote v horách a milujem kávu. */}
             </p>
           </div>
         </figure>
